@@ -1,0 +1,325 @@
+body{
+  font-family:"Proxima Nova W01", ;
+}
+
+
+.logo1{
+  
+  width: 70px;
+  background-color: rgb(255, 255, 255);
+  top: 30px;
+  background-image: none;
+  display: inline-block;
+right: 10px;
+}
+
+.header{
+
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  z-index: 100;
+   padding-left: 150px;
+  width: 100%;
+align-items: center;
+
+}
+.img1{
+position: relative;
+top: 30px;
+left: 150px;
+
+}
+.img-text{
+  position: absolute;
+  top: 3px;
+  left: 250px;
+height: 800px;
+
+}
+.img-text1{
+  left: 200px;
+  width: 500px;
+  height: 100px;
+margin-top: 350px;
+
+}
+.img-text2{
+  width: 450px;
+  margin-top: 300px;
+height:100px ;
+left: 80px;
+
+}
+.img-text2 span{
+  color: blue;
+}
+.shopnow{
+  height: 60px;
+  width: 175px;
+  background-color:#C11B17;
+  color: white;
+  border: 0;
+}
+.shopnow:hover{
+background-color: brown;
+}
+
+.cart{
+  
+  
+  width: 60px;
+}
+
+.right{
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+  width: 800px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+.name{
+display: flex;
+justify-content: space-between;
+width: 500px;
+margin-left: 30px;
+
+
+}
+.ham{
+height: 40px;
+width: 40px;
+right: 10px;
+left: 20px;
+}
+.img2{
+  height: 300px;
+  width: 520px;
+  margin-right: 15px;
+  margin-left: 110px;
+  border-radius: 10px;
+}
+
+.img3{
+  height: 300px;
+  width: 520px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.img4{
+  height: 300px;
+  width: 520px;
+  right: 150px;
+  border-radius: 10px;
+}
+.search-bar{
+  width: 200px;
+  height:20px;
+
+}
+.login{
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+  
+}
+.log{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.shop-the-look{
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.jo{
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+.tomorrow{
+  display: flex;
+  justify-content: center;
+  margin-left: 1000px;
+}
+.school{
+  width: 600px;
+}
+
+.product{
+display: flex;
+flex-direction: row;
+margin-top: 150px;
+padding-left: 50px;
+}
+.shop-look-button{
+
+  width: 340px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-color: white;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+.smc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1170px;
+ padding-left:165px;
+}
+.newlook{
+  display: flex;
+  flex-direction: row ;
+
+}
+
+
+.nb{
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+
+}
+.nb-name{
+  display: flex;
+padding-left: 100px;
+gap: 350px;
+
+}
+.rec-details{
+  display: flex;
+  flex-direction: row;
+  
+}
+.sign{
+  height: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.last{
+  width: 900px;
+  
+  margin-top:100px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.inst1{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+.inst2{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+.inst3{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+.inst4{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+.media{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.media-logo{
+  margin-top: 20px;
+  width: 300px;
+  justify-content: space-between;
+}
+.end-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.end-par1{
+  display: flex;
+  flex-direction: row;
+gap:50px;
+  margin-top:30px ;
+  align-items: baseline;
+  color: black;
+  font-size: 15px;
+}
+.end-par2{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-left: 200px;
+  align-items: baseline;
+  color: black;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.page4{
+  padding-left: 60px;
+}
+.shop1{
+width: 340px;
+height: 30px;
+margin-left: 200px;
+border-color: white;
+background-color: white;
+font-size: 15px;
+border-width: 1px;
+border-radius: 4px;
+}
+.shop2{
+  width: 340px;
+height: 30px;
+margin-right: 10px;
+margin-left: 10px;
+border-color: rgb(255, 231, 231);
+background-color: white;
+font-size: 15px;
+border-width: 1px;
+border-radius: 4px;
+}
+.shop3{
+  width: 340px;
+height: 30px;
+margin-right: 10px;
+border-color: white;
+background-color: white;
+font-size: 15px;
+border-width: 1px;
+border-radius: 4px;
+}
+.shop4{
+  width: 340px;
+height: 30px;
+margin-right: 10px;
+border-color: white;
+background-color: white;
+font-size: 15px;
+border-width: 1px;
+border-radius: 4px;
+}
